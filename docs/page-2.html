@@ -1,0 +1,16 @@
+<!DOCTYPE html><html><head><title>Miblog demo</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/css/app.css"></head><body><header class="blog-header"><h1 class="blog-title"><a href="/">Miblog demo</a></h1><div class="blog-description"><p>This is a demo blog using <a href="https://github.com/scastiel/miblog">Miblog</a>.</p>
+</div></header><article><header><h2><a href="https://scastiel.github.io/miblog-demo//posts/002-second-post.html">This is the second post</a></h2><div class="infos"><time datetime="2016-10-22T19:29:00.000Z">Oct 22, 2016</time></div></header><div class="content"><p>Wow, already another post?</p>
+<p>That&#39;s wonderful!</p>
+</div></article><article><header><h2><a href="https://scastiel.github.io/miblog-demo//posts/001-first-post.html">This is the first post</a></h2><div class="infos"><time datetime="2016-10-22T16:38:00.000Z">Oct 22, 2016</time></div></header><div class="content"><p>Use <em>Markdown</em> to write your posts!</p>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">timeout</span>(<span class="hljs-params">milliseconds = <span class="hljs-number">0</span></span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-params">resolve</span> =&gt;</span> setTimeout(resolve, milliseconds));
+}
+
+<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">main</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Give me a second...'</span>);
+    <span class="hljs-keyword">await</span> timeout(<span class="hljs-number">1000</span>);
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Ok I\'m here!'</span>);
+}
+</code></pre>
+</div></article><nav class="pagination"><ul><li><a href="/">« More recent posts</a></li></ul></nav><footer class="blog-footer"><p>All content distributed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> license. Powered by <a href="https://github.com/scastiel/miblog">Miblog</a>.</p>
+</footer></body></html>

@@ -4,9 +4,9 @@
   "description": "Demo blog using Miblog: https://github.com/scastiel/miblog",
   "repository": "https://github.com/scastiel/miblog-demo",
   "scripts": {
-    "clean": "rm -rf dist",
-    "generate": "miblog dist",
-    "start": "http-server dist -p 3000"
+    "clean": "rm -rf docs/*",
+    "generate": "miblog docs",
+    "start": "http-server docs -p 3000"
   },
   "author": "Sébastien Castiel <sebastien@castiel.me>",
   "license": "GPL-3.0",
