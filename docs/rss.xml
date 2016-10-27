@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Miblog demo]]></title><description><![CDATA[<p>This is a demo blog using <a href="https://github.com/scastiel/miblog">Miblog</a>.</p>
+]]></description><link>https://scastiel.github.io/miblog-demo</link><generator>RSS for Node</generator><lastBuildDate>Thu, 27 Oct 2016 12:22:48 GMT</lastBuildDate><atom:link href="https://scastiel.github.io/miblog-demo/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 27 Oct 2016 12:22:48 GMT</pubDate><item><title><![CDATA[This is the fifth post]]></title><description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra velit turpis, ut egestas sem iaculis vel. Vivamus sollicitudin vel metus vel vulputate. Fusce ut nisl tortor. Integer id risus justo. Nullam rutrum porttitor ipsum, nec fringilla elit dignissim vel. Suspendisse consequat, mi id efficitur lacinia, turpis velit vulputate ligula, in mollis est eros eget purus. Nulla facilisi. Phasellus a turpis tortor. Donec non aliquet justo. Etiam pellentesque sagittis dignissim.</p>
+]]></description><link>https://scastiel.github.io/miblog-demo/posts/005-fifth-post.html</link><guid isPermaLink="false">005-fifth-post</guid><pubDate>Sun, 23 Oct 2016 11:29:00 GMT</pubDate></item><item><title><![CDATA[This is the fourth post]]></title><description><![CDATA[<p>Wow, already another post?</p>
+<p>That&#39;s wonderful!</p>
+]]></description><link>https://scastiel.github.io/miblog-demo/posts/004-fourth-post.html</link><guid isPermaLink="false">004-fourth-post</guid><pubDate>Sun, 23 Oct 2016 10:29:00 GMT</pubDate></item><item><title><![CDATA[This is the third post]]></title><description><![CDATA[<p>Wow, already another post?</p>
+<p>That&#39;s wonderful!</p>
+]]></description><link>https://scastiel.github.io/miblog-demo/posts/003-third-post.html</link><guid isPermaLink="false">003-third-post</guid><pubDate>Sun, 23 Oct 2016 09:29:00 GMT</pubDate></item><item><title><![CDATA[This is the second post]]></title><description><![CDATA[<p>Wow, already another post?</p>
+<p>That&#39;s wonderful!</p>
+]]></description><link>https://scastiel.github.io/miblog-demo/posts/002-second-post.html</link><guid isPermaLink="false">002-second-post</guid><pubDate>Sat, 22 Oct 2016 19:29:00 GMT</pubDate></item><item><title><![CDATA[This is the first post]]></title><description><![CDATA[<p>Use <em>Markdown</em> to write your posts!</p>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">timeout</span>(<span class="hljs-params">milliseconds = <span class="hljs-number">0</span></span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-params">resolve</span> =&gt;</span> setTimeout(resolve, milliseconds));
+}
+
+<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">main</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Give me a second...'</span>);
+    <span class="hljs-keyword">await</span> timeout(<span class="hljs-number">1000</span>);
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Ok I\'m here!'</span>);
+}
+</code></pre>
+]]></description><link>https://scastiel.github.io/miblog-demo/posts/001-first-post.html</link><guid isPermaLink="false">001-first-post</guid><pubDate>Sat, 22 Oct 2016 16:38:00 GMT</pubDate></item></channel></rss>
